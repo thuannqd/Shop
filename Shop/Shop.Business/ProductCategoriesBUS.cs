@@ -29,5 +29,11 @@ namespace Shop.Business
         {
             return new ProductCategories().GetAll();
         }
+        public List<ProductCategories> GetAllPaging(int page,int pageSize,out int TotalRow)
+        {
+            List<ProductCategories> lstCat = new ProductCategories().GetAll();
+            TotalRow = lstCat.Count();
+            return lstCat.Skip((page-1)*pageSize).Take(pageSize).ToList();
+        }
     }
 }
