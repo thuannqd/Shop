@@ -50,27 +50,27 @@ namespace Shop.Data
         #endregion
 
         #region function general
-        public void Insert(ProductCategories obj)
+        public void Insert()
         {
             IData objData = new IData();
             try
             {
                 objData.Connect();
                 objData.CreateNewStoredProcedure("ProductCategories_Insert");
-                objData.AddParameter("@Name", obj.Name);
-                objData.AddParameter("@Alias", obj.Alias);
-                objData.AddParameter("@Description", obj.Description);
-                objData.AddParameter("@ParentID", obj.ParentID);
-                objData.AddParameter("@DisplayOrder", obj.DisplayOrder);
-                objData.AddParameter("@Image", obj.Image);
-                objData.AddParameter("@MetaKeyword", obj.MetaKeyword);
-                objData.AddParameter("@MetaDesription", obj.MetaDesription);
-                objData.AddParameter("@CreateDate", obj.CreateDate);
-                objData.AddParameter("@CreateBy", obj.CreateBy);
-                objData.AddParameter("@UpdateDate", obj.UpdateDate);
-                objData.AddParameter("@UpdateBy", obj.UpdateBy);
-                objData.AddParameter("@Status", obj.Status);
-                objData.AddParameter("@HomeFlag", obj.HomeFlag);
+                objData.AddParameter("@Name", this.Name);
+                objData.AddParameter("@Alias", this.Alias);
+                objData.AddParameter("@Description", this.Description);
+                objData.AddParameter("@ParentID", this.ParentID);
+                objData.AddParameter("@DisplayOrder", this.DisplayOrder);
+                objData.AddParameter("@Image", this.Image);
+                objData.AddParameter("@MetaKeyword", this.MetaKeyword);
+                objData.AddParameter("@MetaDesription", this.MetaDesription);
+                objData.AddParameter("@CreateDate", this.CreateDate);
+                objData.AddParameter("@CreateBy", this.CreateBy);
+                objData.AddParameter("@UpdateDate", this.UpdateDate);
+                objData.AddParameter("@UpdateBy", this.UpdateBy);
+                objData.AddParameter("@Status", this.Status);
+                objData.AddParameter("@HomeFlag", this.HomeFlag);
                 objData.ExecNonQuery();
             }
             catch
@@ -83,26 +83,26 @@ namespace Shop.Data
             }
         }
 
-        public void Update(ProductCategories obj)
+        public void Update()
         {
             IData objData = new IData();
             try
             {
                 objData.Connect();
                 objData.CreateNewStoredProcedure("ProductCategories_Update");
-                objData.AddParameter("@ID", obj.ID);
-                objData.AddParameter("@Name", obj.Name);
-                objData.AddParameter("@Alias", obj.Alias);
-                objData.AddParameter("@Description", obj.Description);
-                objData.AddParameter("@ParentID", obj.ParentID);
-                objData.AddParameter("@DisplayOrder", obj.DisplayOrder);
-                objData.AddParameter("@Image", obj.Image);
-                objData.AddParameter("@MetaKeyword", obj.MetaKeyword);
-                objData.AddParameter("@MetaDesription", obj.MetaDesription);
-                objData.AddParameter("@UpdateDate", obj.UpdateDate);
-                objData.AddParameter("@UpdateBy", obj.UpdateBy);
-                objData.AddParameter("@Status", obj.Status);
-                objData.AddParameter("@HomeFlag", obj.HomeFlag);
+                objData.AddParameter("@ID", this.ID);
+                objData.AddParameter("@Name", this.Name);
+                objData.AddParameter("@Alias", this.Alias);
+                objData.AddParameter("@Description", this.Description);
+                objData.AddParameter("@ParentID", this.ParentID);
+                objData.AddParameter("@DisplayOrder", this.DisplayOrder);
+                objData.AddParameter("@Image", this.Image);
+                objData.AddParameter("@MetaKeyword", this.MetaKeyword);
+                objData.AddParameter("@MetaDesription", this.MetaDesription);
+                objData.AddParameter("@UpdateDate", this.UpdateDate);
+                objData.AddParameter("@UpdateBy", this.UpdateBy);
+                objData.AddParameter("@Status", this.Status);
+                objData.AddParameter("@HomeFlag", this.HomeFlag);
                 objData.ExecNonQuery();
             }
             catch

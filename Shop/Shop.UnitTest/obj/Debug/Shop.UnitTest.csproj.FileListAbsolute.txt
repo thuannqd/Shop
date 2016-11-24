@@ -1,0 +1,7 @@
+D:\Shop\Shop\Shop.UnitTest\bin\Debug\Shop.UnitTest.dll
+D:\Shop\Shop\Shop.UnitTest\bin\Debug\Shop.UnitTest.pdb
+D:\Shop\Shop\Shop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Shop\Shop\Shop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Shop\Shop\Shop.UnitTest\obj\Debug\Shop.UnitTest.csprojResolveAssemblyReference.cache
+D:\Shop\Shop\Shop.UnitTest\obj\Debug\Shop.UnitTest.dll
+D:\Shop\Shop\Shop.UnitTest\obj\Debug\Shop.UnitTest.pdb

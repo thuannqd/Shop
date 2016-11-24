@@ -1,0 +1,16 @@
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Business.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Business.pdb
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Data.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Libs.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Common.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\office.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\stdole.dll
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Data.pdb
+D:\Shop\Shop\Shop.Business\bin\Debug\Shop.Common.pdb
+D:\Shop\Shop\Shop.Business\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Shop\Shop\Shop.Business\bin\Debug\office.xml
+D:\Shop\Shop\Shop.Business\obj\Debug\Shop.Business.csprojResolveAssemblyReference.cache
+D:\Shop\Shop\Shop.Business\obj\Debug\Shop.Business.dll
+D:\Shop\Shop\Shop.Business\obj\Debug\Shop.Business.pdb
