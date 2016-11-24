@@ -9,13 +9,13 @@ namespace Shop.Business
 {
     public class ProductCategoriesBUS
     {
-        public void Insert(ProductCategories obj)
+        public void Insert()
         {
-            new ProductCategories().Insert(obj);
+            new ProductCategories().Insert();
         }
-        public void Update(ProductCategories obj)
+        public void Update()
         {
-            new ProductCategories().Update(obj);
+            new ProductCategories().Update();
         }
         public void Delete(int ID)
         {

@@ -53,3 +53,7 @@ D:\Shop\Shop\Shop.Web\bin\Microsoft.Office.Interop.Excel.xml
 D:\Shop\Shop\Shop.Web\bin\office.xml
 D:\Shop\Shop\Shop.Web\obj\Debug\Shop.Web.dll
 D:\Shop\Shop\Shop.Web\obj\Debug\Shop.Web.pdb
+D:\Shop\Shop\Shop.Web\bin\Autofac.dll
+D:\Shop\Shop\Shop.Web\bin\Shop.Data.dll
+D:\Shop\Shop\Shop.Web\bin\Shop.Data.pdb
+D:\Shop\Shop\Shop.Web\bin\Autofac.xml
